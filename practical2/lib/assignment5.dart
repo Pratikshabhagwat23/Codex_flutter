@@ -14,7 +14,6 @@ class assignment5 extends StatelessWidget {
       backgroundColor: Color.fromARGB(255, 244, 227, 241),
       body: SizedBox(
         height: double.infinity,
-
         child: Container(
           height:500 ,
           margin: EdgeInsets.all(100),
