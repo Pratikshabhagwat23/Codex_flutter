@@ -9,38 +9,51 @@ class assignment4 extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text("Row"),
-        backgroundColor: Colors.black12,
+        backgroundColor: Colors.blueAccent,
       ),
-      body:Center(
-        child: SizedBox(
-          width: 200,
-          child: Column(
-            children: [
-              SizedBox(
-                height: 10,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  Container(
-                    height: 50,
-                    width: 50,
-                    decoration: BoxDecoration(
-                      color: Colors.amber,
-                      borderRadius: BorderRadius.all(Radius.circular(50)),
-                      border: Border.all(color: Colors.black, width: 2),
-                    ),
-                  )
-                  SizedBox(
-                    width: ,
-                  )
-                ],
-              )
-            ],
-          ),
+      body: Container(
+        width: 400,
+        color: Colors.blueGrey,
+        child: Column(
+          children: [
+            Row(
+              children: [
+                SizedBox(
+                  width: 10,
+                ),
+                Container(
+                  height: 50,
+                  width: 50,
+                  decoration: BoxDecoration(
+                    color: Colors.cyanAccent,
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                    border: Border.all()
+                  ),
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                Text("Name"),
+              ],
+            ),
+            Container(
+              height: 200,
+              color: Colors.amberAccent,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Icon(Icons.access_time),
+                Icon(Icons.access_alarm_outlined),
+              ],
+            ),
+            Container(
+              height: 197,
+              color: Colors.brown,
+            )
+          ],
         ),
       ),
-
-      );
+    );
   }
 }
