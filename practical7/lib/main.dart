@@ -17,7 +17,7 @@ class MainApp extends StatelessWidget {
     
     return const MaterialApp(
       home:(
-        reusable()
+        screen1()
       ),
     );
   }
