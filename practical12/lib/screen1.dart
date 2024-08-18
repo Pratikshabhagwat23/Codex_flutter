@@ -15,11 +15,7 @@ class _screen1State extends State<screen1> {
       appBar: AppBar(
         title: Text("pratiksha"),
       ),
-      body: Center(
-        child: Text(
-          name
-        ),
-      ),
+      
     );
   }
 }

@@ -29,15 +29,15 @@ final Function(BuildContext)? deleteFunction;
               ),
               child: Row(
                 children: [
-                  Checkbox(
-                    value: taskCompleted, 
-                    onChanged: onChanged,
-                    checkColor: Colors.black,
-                    activeColor: Colors.white,
-                    side: const BorderSide(
-                      color: Colors.white
-                    ),
-                    ),
+                  // Checkbox(
+                  //   value: taskCompleted, 
+                  //   onChanged: onChanged,
+                  //   checkColor: Colors.black,
+                  //   activeColor: Colors.white,
+                  //   side: const BorderSide(
+                  //     color: Colors.white
+                  //   ),
+                  //   ),
                   Text(
                     taskName,
                     style: TextStyle(
